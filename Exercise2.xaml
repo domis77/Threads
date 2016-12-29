@@ -1,0 +1,51 @@
+﻿<Window x:Class="Threads.Exercise2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Threads"
+        mc:Ignorable="d"
+        Title="Exercise2" Height="350" Width="500">
+    <Grid>
+        <Label x:Name="label" Content="Factorial" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="472" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" Background="#FFF9C6C6"/>
+        <Button x:Name="runIterationAndRecursion_button" Content="Run n! &#x0a;RECURSION &amp; ITERATION" HorizontalAlignment="Left" Height="42" Margin="10,173,0,0" VerticalAlignment="Top" Width="470" Click="runIterationAndRecursion_button_Click"/>
+
+
+
+
+        <Label x:Name="label1" Content="Iteration" HorizontalAlignment="Left" Height="30" Margin="10,60,0,0" VerticalAlignment="Top" Width="233" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFD1D1D1"/>
+
+        <TextBox x:Name="nIteration_textBox" HorizontalAlignment="Left" Height="60" Margin="10,101,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="76" Background="#FFFFFFC6" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
+        <Label x:Name="label2" Content="!" HorizontalAlignment="Left" Height="60" Margin="86,101,0,0" VerticalAlignment="Top" Width="20" FontSize="36"/>
+        <Button x:Name="runIteration_button" Content="Run n!&#x0a;ITERATION" HorizontalAlignment="Left" Height="60" Margin="113,101,0,0" VerticalAlignment="Top" Width="135" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="runIteration_button_Click"/>
+
+        <TextBlock x:Name="resultIteration_textBlock" HorizontalAlignment="Left" Height="20" Margin="11,226,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="233" TextAlignment="Center" FontSize="16" Background="#FFFFE4E0"/>
+
+        <Label x:Name="label3" Content="Time of calculation:&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Height="26" Margin="11,251,0,0" VerticalAlignment="Top" Width="95" FontSize="10"/>
+        <TextBlock x:Name="timeIteration_textBlock" HorizontalAlignment="Left" Height="26" Margin="106,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" TextAlignment="Center" Background="#FFE0DFDF"/>
+
+        <Button x:Name="abortIteration_button" Content="I don't want wait anymore!" HorizontalAlignment="Left" Height="28" Margin="11,282,0,0" VerticalAlignment="Top" Width="233" Background="#FFFF5A5A" Click="abortIteration_button_Click"/>
+
+
+
+
+
+
+
+
+        <Label x:Name="label1_Copy" Content="Recursion" HorizontalAlignment="Left" Height="30" Margin="248,60,0,0" VerticalAlignment="Top" Width="234" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFD1D1D1"/>
+
+        <TextBox x:Name="nRecursion_textBox" HorizontalAlignment="Left" Height="60" Margin="253,101,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="75" Background="#FFFFFFC6" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
+        <Label x:Name="label2_Copy" Content="!" HorizontalAlignment="Left" Height="60" Margin="328,101,0,0" VerticalAlignment="Top" Width="20" FontSize="36"/>
+        <Button x:Name="runRecursion_button" Content="Run n!&#xA;RECURSION" HorizontalAlignment="Left" Height="60" Margin="348,101,0,0" VerticalAlignment="Top" Width="135" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="runRecursion_button_Click"/>
+
+        <TextBlock x:Name="resultRecursion_textBlock" HorizontalAlignment="Left" Height="20" Margin="249,226,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" TextAlignment="Center" FontSize="16" Background="#FFFFE4E0"/>
+
+        <Label x:Name="label3_Copy" Content="Time of calculation:&#xA;&#xA;" HorizontalAlignment="Left" Height="26" Margin="249,251,0,0" VerticalAlignment="Top" Width="95" FontSize="10"/>
+        <TextBlock x:Name="timeRecursion_textBlock" HorizontalAlignment="Left" Height="26" Margin="344,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="137" TextAlignment="Center" Background="#FFE0DFDF"/>
+
+        <Button x:Name="abportRecursion_button" Content="I don't want wait anymore!" HorizontalAlignment="Left" Height="28" Margin="248,282,0,0" VerticalAlignment="Top" Width="233" Background="#FFFF5A5A" Click="abportRecursion_button_Click"/>
+
+
+    </Grid>
+</Window>

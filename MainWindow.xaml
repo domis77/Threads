@@ -8,7 +8,7 @@
         Title="MainWindow" Height="300" Width="300">
     <Grid>
         <Button x:Name="exercise1_button" Content="Exercise 1" HorizontalAlignment="Left" Height="110" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" FontSize="22" Click="exercise1_button_Click"/>
-        <Button x:Name="exercise2_button" Content="Exercise 2" HorizontalAlignment="Left" Height="110" Margin="10,150,0,0" VerticalAlignment="Top" Width="270" FontSize="22"/>
+        <Button x:Name="exercise2_button" Content="Exercise 2" HorizontalAlignment="Left" Height="110" Margin="10,150,0,0" VerticalAlignment="Top" Width="270" FontSize="22" Click="exercise2_button_Click"/>
 
     </Grid>
 </Window>

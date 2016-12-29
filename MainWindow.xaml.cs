@@ -29,5 +29,10 @@ namespace Threads
         {
             new Exercise1().Show();
         }
+
+        private void exercise2_button_Click(object sender, RoutedEventArgs e)
+        {
+            new Exercise2().Show();
+        }
     }
 }
