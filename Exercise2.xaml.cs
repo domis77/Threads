@@ -109,7 +109,7 @@ namespace Threads
             Factorial factorial = new Factorial();
 
             int factorialNumberRecursion;
-            if (int.TryParse(nIteration_textBox.Text, out factorialNumberRecursion)) { }
+            if (int.TryParse(nRecursion_textBox.Text, out factorialNumberRecursion)) { }
             else
             {
                 System.Windows.Forms.MessageBox.Show("Value is not a number!", null, MessageBoxButtons.OK, MessageBoxIcon.Error);
